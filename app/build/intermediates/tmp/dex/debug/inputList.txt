@@ -1,0 +1,9 @@
+/Users/paulina/Desktop/tumblrsnap/app/build/intermediates/classes/debug
+/Users/paulina/Desktop/tumblrsnap/app/build/intermediates/pre-dexed/debug/codepath-utils-347fd682c01efc6cb0d88fba0be05a5978f40d16.jar
+/Users/paulina/Desktop/tumblrsnap/app/build/intermediates/pre-dexed/debug/codepath-android-view-helpers-0.1.0-c40cbef59fbe0f5a829fda3fe1e76107ca030be0.jar
+/Users/paulina/Desktop/tumblrsnap/app/build/intermediates/pre-dexed/debug/codepath-oauth-0.2.3-81b66964f0202d987bd48c6a2dccd30da4af2d44.jar
+/Users/paulina/Desktop/tumblrsnap/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.3-8e95531b55a277880cdb50731fa7f1e454443a8d.jar
+/Users/paulina/Desktop/tumblrsnap/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.8.4-9f0cde83be76d7071513ddfd6e09994c2e0bcafe.jar
+/Users/paulina/Desktop/tumblrsnap/app/build/intermediates/pre-dexed/debug/scribe-be905bb3382d247a97ac543579e5dbed8917e65e.jar
+/Users/paulina/Desktop/tumblrsnap/app/build/intermediates/pre-dexed/debug/androidjhlabs-75d86e3cef3444c6a39bad2ea403deb8e102828d.jar
+/Users/paulina/Desktop/tumblrsnap/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-36209f3b9d6d3f3a3ca5c0b65a5fe47757502831.jar
