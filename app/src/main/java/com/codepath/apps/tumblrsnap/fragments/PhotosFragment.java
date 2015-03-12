@@ -88,11 +88,17 @@ public class PhotosFragment extends Fragment {
 			case R.id.action_take_photo:
 			{
 				// Take the user to the camera app
+                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                photoUri = Uri.fromFile(getOutputMediaFile()); // create a file to save the image
+                intent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri); // set the image file name
+                startActivityForResult(intent, TAKE_PHOTO_CODE);
 			}
 			break;
 			case R.id.action_use_existing:
 			{
 				// Take the user to the gallery app
+                Intent photoGalleryIntent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                startActivityForResult(photoGalleryIntent , PICK_PHOTO_CODE);
 			}
 			break;
 		}
@@ -106,12 +112,12 @@ public class PhotosFragment extends Fragment {
 				// Extract the photo that was just taken by the camera
 				
 				// Call the method below to trigger the cropping
-				// cropPhoto(photoUri)
+				cropPhoto(photoUri);
 			} else if (requestCode == PICK_PHOTO_CODE) {
 				// Extract the photo that was just picked from the gallery
 				
 				// Call the method below to trigger the cropping
-				// cropPhoto(photoUri)
+				cropPhoto(photoUri);
 			} else if (requestCode == CROP_PHOTO_CODE) {
 				photoBitmap = data.getParcelableExtra("data");
 				startPreviewPhotoActivity();
